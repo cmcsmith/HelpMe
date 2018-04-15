@@ -17,7 +17,7 @@ import java.util.HashMap;
 public class Commands extends CommandExecute implements Listener,CommandExecutor {
     Main plugin;
     public Commands(Main instance) {
-        this.plugin = instance; //now you can access plugin
+        this.plugin = instance;
     }
 
     public static ArrayList<String> helplist = new ArrayList<>();
