@@ -1,11 +1,9 @@
 package cmc.helpme;
 
-import me.clip.placeholderapi.PlaceholderAPI;
 import net.minecraft.server.v1_12_R1.CommandExecute;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
-import org.bukkit.Statistic;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -17,7 +15,7 @@ import java.util.HashMap;
 public class Commands extends CommandExecute implements Listener,CommandExecutor {
     Main plugin;
     public Commands(Main instance) {
-        this.plugin = instance; //now you can access plugin
+        this.plugin = instance;
     }
 
     public static ArrayList<String> helplist = new ArrayList<>();

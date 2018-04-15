@@ -12,6 +12,7 @@ public class Main extends JavaPlugin implements Listener {
 
     public void onEnable() {
         plugin = this;
+        Metrics metrics = new Metrics(this);
         registerCommands();
         registerListener();
         registerConfig();
