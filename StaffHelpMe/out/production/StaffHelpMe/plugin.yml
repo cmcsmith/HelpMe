@@ -2,7 +2,7 @@ main: cmc.helpme.Main
 author: CMC
 name: HelpMe
 prefix: CMCPlugins
-version: 1.4
+version: 1.3.2
 description: Lets normal users do /helpme <reason>, lets staff do various other commands
 commands:
  helpme:
