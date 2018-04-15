@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="spigot">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Server/spigot.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../PlaceholderAPI-2.8.5 (1).jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../Server/spigot.jar!/" />
+    </SOURCES>
+  </library>
+</component>

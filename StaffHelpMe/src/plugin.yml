@@ -1,0 +1,23 @@
+main: cmc.helpme.Main
+author: CMC
+name: HelpMe
+prefix: CMCPlugins
+version: 1.4
+description: Lets normal users do /helpme <reason>, lets staff do various other commands
+commands:
+ helpme:
+  aliases: staff
+  usage: ""
+ stafftp:
+  aliases: stp
+  usage: ""
+ staffback:
+  aliases: stb
+  usage: ""
+ helpgui:
+  aliases: hgui
+  usage: ""
+permissions:
+  helpme.staff:
+   description: Allows staff to get the msgs
+   default: false

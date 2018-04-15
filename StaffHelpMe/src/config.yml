@@ -1,0 +1,26 @@
+#Remember to put a space at the start and end of messages with player names included
+#Messages relate to the /helpme command
+ErrorUsageHelpMe: "&3Error! Do /helpme <reason>!"
+ErrorShortHelpMe: "&3Error! Reason is to short!"
+ErrorLongHelpMe: "&3Error! Reason is to long!"
+SentToStaff: "&3Request Sent to Online Staff!"
+#This message is sent to staff, leave blank if you don't want that line. Remember, no tabs, only spaces when trying to center text
+ReasonSent: "&3A Cool Message using \n as a line breaker and %player% and %reason%"
+
+#Messages relate to /stafftp command
+ErrorUsageTP: "&3Error! Do /stafftp <player>"
+ErrorUsagePlayer: "&3This player isn`t online!"
+ErrorNeverRequest: "&3This player never requested help!"
+TPtoPlayera: "&3Teleporting to Player..."
+TPtoPlayerb: "&3You have been assigned God Mode for 2min. It will also be removed once you"
+TPtoPlayerc: "&3do /staffback to return to your previous location..."
+TargetRespond: "&3 %player% has responded to your help request!"
+ToStaff: "&3 %player% has responded to %target%"
+
+#Messages relate to /staffback command
+ErrorUsageStaffback: "&3Error! Just do /staffback!"
+ErrorNeverResponded: "&3You can not use this command right now!"
+Return: "&3Returned to previous location..."
+
+#Applies to all commands
+NotStaff: "&3You are not staff!"
