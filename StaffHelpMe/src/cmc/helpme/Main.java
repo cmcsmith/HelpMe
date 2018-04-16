@@ -18,17 +18,19 @@ public class Main extends JavaPlugin implements Listener {
 
     public void onEnable() {
         plugin = this;
-        Metrics metrics = new Metrics(this);
+        MetricsLite metrics = new MetricsLite(this);
         registerCommands();
         registerListener();
         registerConfig();
-
         UpdateChecker updater = new UpdateChecker(this, 55739);
         try {
-            if (updater.checkForUpdates())
+            if (updater.checkForUpdates()) {
                 getLogger().info("An update was found! New version: " + updater.getLatestVersion() + " download: " + updater.getResourceURL());
-            getLogger().info("An update was found! New version: " + updater.getLatestVersion() + " download: " + updater.getResourceURL());
-            getLogger().info("An update was found! New version: " + updater.getLatestVersion() + " download: " + updater.getResourceURL());
+                getLogger().info("An update was found! New version: " + updater.getLatestVersion() + " download: " + updater.getResourceURL());
+                getLogger().info("An update was found! New version: " + updater.getLatestVersion() + " download: " + updater.getResourceURL());
+            } else {
+                getLogger().info("HelpMe is up-to-date!");
+            }
         } catch (Exception e) {
             getLogger().info("Could not check for updates! Stacktrace:");
             e.printStackTrace();
